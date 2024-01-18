@@ -1,6 +1,6 @@
 import React from "react";
 import Ico_menu from "../asesst/Icons/Ico_menu";
-import Ico_Plant from "../asesst/Icons/Ico_plant";
+import Ico_Hamburguer from "../asesst/Icons/Ico_hamburguer";
 import Ico_search from "../asesst/Icons/Ico_search";
 import Ico_user from "../asesst/Icons/Ico_user";
 import {fadeinTop } from "../Styles/keyframes";
@@ -37,10 +37,10 @@ function Nav(){
             
             
         }}>
-            <Ico_Plant width="35" height="35"/>
+            <Ico_Hamburguer width="35" height="35"/>
             <Text cursor={"click"} css={{
                 headline4_i:"600"
-            }}>Plant Me</Text>
+            }}>Burgueria</Text>
         </Flex>
 
         <Flex justify={"end"} align="center" css={{
@@ -54,7 +54,9 @@ function Nav(){
                     headline6:"700",
                     cursor:"pointer ",
                     padding:"0 $3",
-                    color:"$onBg800",
+                    color:"#2e2e1f",
+                    border: "1px solid #ffffff",
+                    backgroundColor:'#c2c2a3',
                     "&:hover":{
                         color:"$onBg"
                     }
@@ -65,10 +67,10 @@ function Nav(){
                 }
 
             }}>
-            <Text>Our Services</Text>
-            <Text>Plant Care</Text>
-            <Text>Pricing</Text>
-            <Text>About</Text>
+            <Text>Promoção</Text>
+            <Text>Combos</Text>
+            <Text>Sobre Nós</Text>
+            <Text>Contato</Text>
             </Flex>
 
             <Flex justify={"around"} align="center" css={{

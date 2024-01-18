@@ -302,7 +302,7 @@ export const {
         "imgBg":()=>({
             width:"100%",
             height:"100%",
-            backgroundImage:"url('https://user-images.githubusercontent.com/78824988/177554992-f94c6194-be7e-4c4e-a948-a0a656e0e71d.jpg')",
+            backgroundImage:"url('https://i.ibb.co/m8BK9hZ/Design-sem-nome.png')",
             backgroundPosition:"center",
             backgroundOrigin:"content-box",
             backgroundSize:"cover",
