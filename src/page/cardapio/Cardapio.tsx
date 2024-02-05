@@ -2,33 +2,32 @@ import React from "react";
 import Nav from "../../components/nav";
 import Flex from "../../Styles/styledComponent/Flex";
 import globalStyle from "../../Styles/globalCss";
-function Cardapio(){
+import Text from "../../Styles/styledComponent/Text";
+import Main from "../../components/main";
+import { fadein } from "../../Styles/keyframes";
+// import { fadein } from "../Styles/keyframes";
+
+function Cardapio() {
     globalStyle()
-    return(
+    return (
         <Flex
-        id="wrapper"
-        data-testid="app"
-        css={{
-          position: "relative",
-          padding: " $2 $10",
-          "@bp1": {
-            padding: " $2 $3",
-          },
-          "@bp2": {
-            padding: " $2 $5",
-          },
-          "@bp5": {
-            padding: " $2 $3",
-          },
-        }}
-      >
-        <Flex css={{ imgBg: "" }}></Flex>
-        {/* <Flex css={{ meshBg: "" }}></Flex> */}
-  
-        <Nav />
-        
-      </Flex>    
-        
+            dir={"column"}
+            justify="around"
+            css={{
+                width: "100%",
+                height: "100%",
+                // opacity: "0",
+                // animation: `1s ease-in 1s 1 both ${fadein}`,
+            }}
+        >
+            <Text
+            >
+                Saboreie o melhor Hamburguer <br />
+                da culinária  <br />
+                em cada mordida.
+            </Text>
+
+        </Flex>
     )
 }
 export default Cardapio;
