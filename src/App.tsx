@@ -8,7 +8,19 @@ import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import Cardapio from './page/cardapio/Cardapio';
 import Promocao from './page/promocao/Promocao';
 
+const Rotas = () => {
+  return <BrowserRouter>
+    <Routes>
+      <Route path='/' element={<HomePage />} />
+      <Route path='/cardapio' element={<Cardapio />} />
+      <Route path='/promoção' element={<Promocao />} />
+    </Routes>
+  </BrowserRouter>;
+}
+
+
 function App() {
+  
   return (
     <Flex
       id="wrapper"
@@ -31,13 +43,7 @@ function App() {
       <Flex css={{ meshBg: "" }}></Flex>
       <Nav />
 
-      <BrowserRouter>
-        <Routes>
-          <Route path='/' element={<HomePage />} />
-          <Route path='/cardapio' element={<Cardapio />} />
-          <Route path='/promoção' element={<Promocao />} />
-        </Routes>
-      </BrowserRouter>
+      <Rotas/>
     </Flex>
   )
 }

@@ -1,0 +1,26 @@
+{"Cardapio": [
+    {
+        "id": 1,
+        "titulo": "X-capricho",
+        "capa": "https://img.freepik.com/fotos-gratis/hamburguer-de-vista-frontal-em-um-carrinho_141793-15542.jpg?w=740&t=st=1707255634~exp=1707256234~hmac=bca0a036c4f7661823d7a45dd910ff8556f7dc7b15aa0cb2a273d7970ef4ed49",
+        "Descrição":""
+    },
+    {
+        "id": 2,
+        "titulo": "Só os fortes",
+        "capa": "https://img.freepik.com/fotos-gratis/closeup-tiro-de-um-hamburguer-com-bacon-e-queijo-uma-caneca-de-cafe-vermelha_181624-4345.jpg?t=st=1707240487~exp=1707241087~hmac=da2fa3d65b6cb66db8a08d6e39be504f66e350b398321df3480ced702382cc1e",
+        "Descrição":""
+    },
+    {
+        "id": 3,
+        "titulo": "So os loucos comeram",
+        "capa": "https://img.freepik.com/fotos-gratis/hamburguer-de-vista-frontal-em-um-carrinho_141793-15542.jpg?w=740&t=st=1707255634~exp=1707256234~hmac=bca0a036c4f7661823d7a45dd910ff8556f7dc7b15aa0cb2a273d7970ef4ed49",
+        "Descrição": ""
+    },
+    {
+        "id": 4,
+        "titulo": "X-Larica",
+        "capa": "https://img.freepik.com/fotos-gratis/closeup-tiro-de-um-hamburguer-com-bacon-e-queijo-uma-caneca-de-cafe-vermelha_181624-4345.jpg?t=st=1707240487~exp=1707241087~hmac=da2fa3d65b6cb66db8a08d6e39be504f66e350b398321df3480ced702382cc1e",
+        "Descrição": ""
+    }
+]}
